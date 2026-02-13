@@ -13,7 +13,7 @@ Route::get('/', function () {
     //     ->get());
 
     //  Montrez-moi des appartements à Porto à moins de 80 dollars.
-    dd(App\Models\ListingAndReviews::byCity("Porto", ["propertyType" => "Apartment", "maxPrice" => 80]));
+    // dd(App\Models\ListingAndReviews::byCity("Porto", ["propertyType" => "Apartment", "maxPrice" => 80]));
 
     return view('welcome');
 });
